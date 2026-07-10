@@ -264,23 +264,6 @@ First provide the overall conclusion, then key names/codes, sector reasoning, ri
 and intraday confirmation conditions. State clearly that this is technical research only.
 ```
 
-## Release Checklist Before Publishing
-
-Before pushing to GitHub:
-
-```bat
-python -m py_compile stock_limit_lnn_transformer_registry.py run_prediction_three_times_registry.py interpret_results.py diagnose_feedback_backfill.py repair_feedback_backfill.py tushare_gui_app_missing_only.py
-python -m json.tool config.example.json
-```
-
-Then scan for secrets:
-
-```bat
-findstr /S /I "token api_key secret password TUSHARE_TOKEN" *.py *.json *.md
-```
-
-Expected: only documentation and environment-variable references, no real token.
-
 ## License
 
 Choose a license before public release. If unsure, use MIT for permissive research sharing, or keep the repository private until you decide.
