@@ -263,8 +263,3 @@ Read this JSON. You are only the explanation layer and must not change model sco
 First provide the overall conclusion, then key names/codes, sector reasoning, risks,
 and intraday confirmation conditions. State clearly that this is technical research only.
 ```
-
-## License
-
-Choose a license before public release. If unsure, use MIT for permissive research sharing, or keep the repository private until you decide.
-
